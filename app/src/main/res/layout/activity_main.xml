@@ -10,18 +10,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hola mundoooo"
+        android:textColor="#3C0B0B"
+        android:textColorLink="#9B3838"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
 
     <TextView
-        android:id="@+id/Textview2"
-        android:layout_width="121dp"
-        android:layout_height="73dp"
-        android:text="Bienvenidos"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="462dp" />
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColorLink="#801D1D"
+        app:rippleColor="#731919"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="181dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
