@@ -16,4 +16,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="121dp"
+        android:layout_height="73dp"
+        android:text="Bienvenidos"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="462dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
